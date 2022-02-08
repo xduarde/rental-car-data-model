@@ -45,6 +45,8 @@ In order to monitor the rentalCarsWorkflow, access the Airflow Web Server in:
 
 ***User & password:*** airflow
 
+Here, at the ***show_report*** task log, can be visualized the aggregate table sample.
+
 
 ## Data Model
 
