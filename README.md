@@ -48,9 +48,9 @@ In order to monitor the rentalCarsWorkflow, access the Airflow Web Server in:
 
 ## Data Model
 
-To prove the model, the [Cornell Car Rental Database](https://www.kaggle.com/kushleshkumar/cornell-car-rental-dataset) was used. 
-
 ![alt text](/img/car-rental.png)
+
+The [Cornell Car Rental Database](https://www.kaggle.com/kushleshkumar/cornell-car-rental-dataset) was used to create the files which feed the four tables. 
 
 
 ## License
