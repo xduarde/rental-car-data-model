@@ -2,6 +2,7 @@ import time
 from airflow.hooks.postgres_hook import PostgresHook
 
 def copyData():
+    """Execute the COPY statement to insert the data to every table."""
     conn = PostgresHook(postgres_conn_id='postgres_default').get_conn()
     cur = conn.cursor()
 

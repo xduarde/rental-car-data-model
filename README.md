@@ -2,9 +2,10 @@
 
 Car Rental data model developed in Python, orchestrated in Airflow and implemented in Docker.
 
-# Getting Started
 
-## Installation
+## Getting Started
+
+### Installation
 
 Clone the repository and access its folder.
 
@@ -16,7 +17,7 @@ cd rental-car-data-model
 ```
 
 
-# Usage
+## Usage
 
 The Car Rental data model is built and desinged in a relational database (PostgreSQL). Besides, the data model is deployed from a [Docker](https://docs.docker.com/get-docker/) container, through an [Airflow image](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html).
 
@@ -44,10 +45,12 @@ In order to monitor the rentalCarsWorkflow, access the Airflow Web Server in:
 
 ***User & password:*** airflow
 
-# Data Model
+
+## Data Model
 
 ![alt text](/img/car-rental.png)
 
-# License
+
+## License
 
 Distributed under the MIT License. See LICENSE for more information.

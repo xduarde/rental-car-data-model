@@ -1,6 +1,7 @@
 from airflow.hooks.postgres_hook import PostgresHook
 
 def showReport():
+    """Execute a SELECT statement to show an aggregate table sample."""
     conn = PostgresHook(postgres_conn_id='postgres_default').get_conn()
     cur = conn.cursor()
 
